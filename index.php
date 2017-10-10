@@ -1,11 +1,4 @@
-<?php
-/**
- * Index File
- */
-
-get_header();
-
-?>
+<?php include 'header-tech.php';?>
 
 <section class="site__hero--image"></section>
 
@@ -59,4 +52,4 @@ get_header();
 
 </section>
 
-<?php get_footer(); ?>
+<?php include 'footer.php' ?>
