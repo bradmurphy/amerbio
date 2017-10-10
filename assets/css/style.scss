@@ -14,6 +14,7 @@ Text Domain: wpgulp-theme
 /* ----------------------------------------------------------------------------
  * Mixins & Variables
  * ------------------------------------------------------------------------- */
+@import "partials/fonts";
 @import "partials/mixins";
 @import "partials/variables";
 
@@ -27,6 +28,9 @@ Text Domain: wpgulp-theme
  * Structure
  * ------------------------------------------------------------------------- */
 @import "partials/structure";
+
+/* layout */
+@import "partials/layout";
 
 /* WPCore */
 @import "partials/wpcore";

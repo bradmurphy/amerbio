@@ -1,0 +1,35 @@
+// ================================
+// == layout ======================
+// ================================
+// colors
+$site-blue: #74b0d8;
+$site-blue--dark: #1b80c2;
+$site-grey: #eae9ea;
+
+// box model
+$site-max-width: 1200px;
+$site-content-max-width: 960px;
+$site-padding: 50px;
+
+// typography
+$site-font-proxima: 'Proxima Nova', sans-serif;
+$site-font-proxima--light: 'proxima_nova_ltthin', sans-serif;
+$site-font-proxima--bold: 'proxima_nova_ltsemibold', sans-serif;
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background: $site-blue;
+
+  &__content {
+    width: 100%;
+    max-width: $site-content-max-width;
+    margin: 50px auto;
+    padding: 50px 0;
+    background: #fff;
+    border-radius: 4px;
+    text-align: center;
+  }
+}
