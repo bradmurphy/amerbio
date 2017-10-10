@@ -1,0 +1,66 @@
+// ================================
+// == Site Structure ==============
+// ================================
+
+.site {
+
+  &__main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  &__side-nav {
+    background: #fff;
+    width: 240px;
+    min-width: 240px;
+    height: 800px;
+    margin-left: -240px;
+    padding-top: 20px;
+    transition: margin 0.3s ease;
+  }
+
+  &__container {
+    position: relative;
+    display: block;
+    width: 100%;
+    min-width: 100%;
+
+    &-overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.75);
+      top: 0;
+      left: 0;
+      display: none;
+      z-index: 9999;
+      cursor: pointer;
+
+      &--show {
+        display: block;
+      }
+    }
+  }
+
+  &__wrap {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1355px;
+    padding: 0 20px;
+
+    &--wide {
+      position: relative;
+      margin: 0 auto;
+      width: 100%;
+      max-width: 1600px;
+      padding: 0 20px;
+
+      @media screen and (min-width: 900px) {
+        padding: 0 50px;
+      }
+    }
+  }
+
+}
