@@ -1,4 +1,4 @@
-<?php include 'header-tech.php';?>
+<?php include 'header.php';?>
 
 <section class="site__hero--image"></section>
 
