@@ -14,7 +14,9 @@ $site-padding: 50px;
 // typography
 $site-font-proxima: 'Proxima Nova', sans-serif;
 $site-font-proxima--light: 'proxima_nova_ltthin', sans-serif;
-$site-font-proxima--bold: 'proxima_nova_ltsemibold', sans-serif;
+$site-font-proxima--semi-bold: 'proxima_nova_ltsemibold', sans-serif;
+$site-font-proxima--bold: 'proxima_nova_altbold', sans-serif;
+$site-font-proxima--black: 'proxima_nova_altblack', sans-serif;
 
 .hero {
   display: flex;
