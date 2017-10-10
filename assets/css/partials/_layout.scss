@@ -18,7 +18,7 @@ $site-font-proxima--semi-bold: 'proxima_nova_ltsemibold', sans-serif;
 $site-font-proxima--bold: 'proxima_nova_altbold', sans-serif;
 $site-font-proxima--black: 'proxima_nova_altblack', sans-serif;
 
-.hero {
+.section-hero {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,6 +32,32 @@ $site-font-proxima--black: 'proxima_nova_altblack', sans-serif;
     padding: 50px 0;
     background: #fff;
     border-radius: 4px;
+    text-align: center;
+  }
+
+  &__divider {
+    display: block;
+    width: 200px;
+    height: 2px;
+    margin: 0 auto;
+    padding: 0;
+    background: $site-blue;
+  }
+}
+
+.section-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background: $site-blue--dark;
+
+  &__content {
+    width: 100%;
+    max-width: $site-content-max-width;
+    margin: 0 auto;
+    padding: 50px 0;
+    color: #fff;
     text-align: center;
   }
 }
