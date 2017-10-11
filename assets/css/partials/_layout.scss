@@ -5,6 +5,7 @@
 $site-blue: #74b0d8;
 $site-blue--dark: #1b80c2;
 $site-grey: #eae9ea;
+$site-copy-grey: #595a5a;
 
 // box model
 $site-max-width: 1200px;
@@ -18,6 +19,24 @@ $site-font-proxima--semi-bold: 'proxima_nova_ltsemibold', sans-serif;
 $site-font-proxima--bold: 'proxima_nova_altbold', sans-serif;
 $site-font-proxima--black: 'proxima_nova_altblack', sans-serif;
 
+.site-copy {
+  font-family: 'proxima_nova_scosfthin', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: $site-copy-grey;
+  
+  &--lrg {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  &--link {
+    line-height: 48px;
+    color: $site-blue;
+    text-transform: uppercase;
+  }
+}
+
 // top page section blue background hero
 .section-hero {
   display: flex;
@@ -28,13 +47,19 @@ $site-font-proxima--black: 'proxima_nova_altblack', sans-serif;
   background: $site-blue;
 
   &__content {
+    box-sizing: border-box;
     width: 100%;
-    max-width: $site-content-max-width;
-    margin: 50px auto;
-    padding: 50px 0;
+    max-width: 90%;
+    margin: $site-gutter-val auto;
+    padding: $site-gutter-val 0;
     background: #fff;
     border-radius: 4px;
     text-align: center;
+    
+    @media screen and (min-width: 1060px) {
+      max-width: $site-content-max-width;
+      padding: $site-gutter-val;
+    }
   }
 
   &__divider {
@@ -44,6 +69,21 @@ $site-font-proxima--black: 'proxima_nova_altblack', sans-serif;
     margin: 0 auto;
     padding: 0;
     background: $site-blue;
+  }
+
+  &__headline {
+    font-family: $site-font-proxima--light;
+    font-size: 36px;
+    line-height: 48px;
+    color: $site-blue;
+    
+    &--sml {
+      font-family: $site-font-proxima;
+      font-size: 16px;
+      line-height: 24px;
+      color: $site-copy-grey;
+      text-transform: uppercase;
+    }
   }
 }
 
@@ -59,22 +99,37 @@ $site-font-proxima--black: 'proxima_nova_altblack', sans-serif;
     width: 100%;
     max-width: $site-content-max-width;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: $site-gutter-val 0;
     color: #fff;
     text-align: center;
   }
 }
 
+.site-section {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: $site-content-max-width;
+  margin: $site-gutter-val auto;
+  padding: 0 $site-gutter-val;
+  text-align: center;
+}
+
 // general section (display: flex; yada yada yada)
 .section-content {
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   width: 100%;
   max-width: $site-content-max-width;
   margin: 0 auto;
+  
+  &--lrg {
+    max-width: $site-max-width;
+  }
 
   @media screen and (min-width: 960px) {
     flex-direction: row;
+    flex-wrap: wrap;
   }
 }
 
@@ -93,4 +148,21 @@ $site-font-proxima--black: 'proxima_nova_altblack', sans-serif;
 
 .section-main {
   flex: 6;
+}
+
+.section-content__col {
+  box-sizing: border-box;
+  width: 100%;
+  flex-basis: 100%;
+  padding: 0 $site-gutter-val $site-gutter-val $site-gutter-val;
+  
+  @media screen and (min-width: 960px) {
+    width: 50%;
+    flex-basis: 50%;
+    padding: $site-gutter-val 2.5% $site-gutter-val 5%;
+    
+    &:nth-of-type(even) {
+      padding: $site-gutter-val 5% $site-gutter-val 2.5%;
+    }
+  }
 }
