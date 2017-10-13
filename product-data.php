@@ -188,6 +188,27 @@
       </div>
     </div>
 
+    <div class="section-footer">
+      <div class="section-footer__content">
+        <h2 class="site-section__headline">Email sign-up for doctors</h2>
+
+        <p class="site-copy">
+            If you are a physician and would like to be informed of new developments atAmerican BioOptics, please contact us at:
+        </p>
+
+        <a href="#" class="technology-footer-cta">
+          <button type="button" name="button" class="product-email-cta">
+            <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/site-theme/assets/img/icon-email.png" alt="icon" class="section-content-icon section-content-icon--email">
+            <span class="site-copy">info@americanbiooptics.com</span>
+          </button>
+        </a>
+
+        <p class="site-copy site-copy--cite">
+          In compliance with all applicable laws and regulations, American BioOptics will maintain your email address and attempt to respond to queries within a reasonable time frame. American BioOptics will not share your contact information with other groups or institutions.
+        </p>
+      </div>
+    </div>
+
 </section>
 
 
