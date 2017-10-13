@@ -10,7 +10,8 @@ $site-copy-grey: #595a5a;
 // box model
 $site-max-width: 1200px;
 $site-content-max-width: 960px;
-$site-gutter-val: 50px;
+$site-gutter-val: 30px;
+$site-gutter-val--desktop: 50px;
 
 // typography
 $site-font-proxima: 'Proxima Nova', sans-serif;
@@ -31,9 +32,28 @@ $site-font-proxima--black: 'proxima_nova_altblack', sans-serif;
   }
 
   &--link {
+    font-weight: 400;
     line-height: 48px;
-    color: $site-blue;
+    letter-spacing: 2px;
+    color: $site-blue--dark;
     text-transform: uppercase;
+    
+    &:after {
+      position: relative;
+      top: 3px;
+      display: inline-block;
+      content: '';
+      width: 20px;
+      height: 20px;
+      margin-left: 10px;
+      background: url('assets/img/icon-cta-arrow.png')no-repeat center center;
+      background-size: contain;
+    }
+  }
+
+  &--cite {
+    font-size: 12px;
+    line-height: 22px;
   }
 }
 
@@ -58,7 +78,7 @@ $site-font-proxima--black: 'proxima_nova_altblack', sans-serif;
     
     @media screen and (min-width: 1060px) {
       max-width: $site-content-max-width;
-      padding: $site-gutter-val;
+      padding: $site-gutter-val--desktop;
     }
   }
 
@@ -66,7 +86,7 @@ $site-font-proxima--black: 'proxima_nova_altblack', sans-serif;
     display: block;
     width: 200px;
     height: 2px;
-    margin: 0 auto;
+    margin: 0 auto 20px auto;
     padding: 0;
     background: $site-blue;
   }
@@ -75,14 +95,17 @@ $site-font-proxima--black: 'proxima_nova_altblack', sans-serif;
     font-family: $site-font-proxima--light;
     font-size: 36px;
     line-height: 48px;
+    font-weight: 100;
     color: $site-blue;
     
     &--sml {
       font-family: $site-font-proxima;
-      font-size: 16px;
+      font-size: 14px;
       line-height: 24px;
+      font-weight: 100;
       color: $site-copy-grey;
       text-transform: uppercase;
+      letter-spacing: 2px; 
     }
   }
 }
@@ -102,6 +125,10 @@ $site-font-proxima--black: 'proxima_nova_altblack', sans-serif;
     padding: $site-gutter-val 0;
     color: #fff;
     text-align: center;
+    
+    @media screen and (min-width: 960px) {
+      padding: $site-gutter-val--desktop 0;
+    }
   }
 }
 
@@ -109,9 +136,22 @@ $site-font-proxima--black: 'proxima_nova_altblack', sans-serif;
   box-sizing: border-box;
   width: 100%;
   max-width: $site-content-max-width;
-  margin: $site-gutter-val auto;
+  margin: 0 auto $site-gutter-val auto;
   padding: 0 $site-gutter-val;
   text-align: center;
+  
+  @media screen and (min-width: 960px) {
+    margin: 0 auto $site-gutter-val--desktop auto;
+    padding: 0 $site-gutter-val--desktop;
+  }
+  
+  &__headline {
+    font-family: $site-font-proxima--light;
+    font-size: 28px;
+    line-height: 48px;
+    font-weight: 100;
+    color: $site-copy-grey;
+  }
 }
 
 // general section (display: flex; yada yada yada)
@@ -121,7 +161,7 @@ $site-font-proxima--black: 'proxima_nova_altblack', sans-serif;
   flex-direction: column;
   width: 100%;
   max-width: $site-content-max-width;
-  margin: 0 auto;
+  margin: $site-gutter-val auto;
   
   &--lrg {
     max-width: $site-max-width;
@@ -130,6 +170,20 @@ $site-font-proxima--black: 'proxima_nova_altblack', sans-serif;
   @media screen and (min-width: 960px) {
     flex-direction: row;
     flex-wrap: wrap;
+    margin: $site-gutter-val--desktop auto;
+  }
+
+  // @2x_retina icons
+  &-icon {
+    display: block;
+    width: 100%;
+    max-width: 175px;
+    margin: 0 auto;
+    height: auto;
+  }
+
+  &-icon--email {
+    max-width: 40.5px;
   }
 }
 
@@ -150,19 +204,132 @@ $site-font-proxima--black: 'proxima_nova_altblack', sans-serif;
   flex: 6;
 }
 
-.section-content__col {
+.section-content__cell,
+.section-content__article {
   box-sizing: border-box;
   width: 100%;
   flex-basis: 100%;
-  padding: 0 $site-gutter-val $site-gutter-val $site-gutter-val;
+  padding: 0 0 $site-gutter-val 0;
   
   @media screen and (min-width: 960px) {
     width: 50%;
     flex-basis: 50%;
-    padding: $site-gutter-val 2.5% $site-gutter-val 5%;
+    padding: 0 2.5% $site-gutter-val--desktop 5%;
     
     &:nth-of-type(even) {
-      padding: $site-gutter-val 5% $site-gutter-val 2.5%;
+      padding: 0 5% $site-gutter-val--desktop 2.5%;
     }
   }
+}
+
+.section-form {
+  
+}
+
+// ================================
+// == Technology page styles
+// ================================
+.technology {
+  
+  .section-hero__secondary {
+    width: 100%;
+    max-width: 359px;
+    margin: 0 auto;
+  }
+
+  .site-section {
+    margin-top: $site-gutter-val;
+    margin-bottom: 0;
+    
+    &__headline {
+      margin-top: $site-gutter-val;
+      text-align: center;
+    }
+
+    &--link {
+      margin-top: $site-gutter-val;
+      margin-bottom: $site-gutter-val;
+    }
+
+    @media screen and (min-width: 960px) {
+      margin-top: $site-gutter-val--desktop;
+      
+      &__headline {
+        margin-top: $site-gutter-val--desktop;
+      }
+
+      &--link {
+        margin-top: $site-gutter-val--desktop;
+        margin-bottom: $site-gutter-val--desktop;
+      }
+    }
+  }
+
+  .section-content {
+    margin-top: 0;
+    
+    &__cell {
+      text-align: left
+    }
+  }
+
+  .section-footer {
+
+    &__content {
+      max-width: 450px;
+    }
+    
+    .site-section {
+      margin-top: $site-gutter-val;
+      
+      &__headline {
+        color: #fff;
+      }
+
+      @media screen and (min-width: 960px) {
+        margin-top: $site-gutter-val--desktop;
+      }
+    }
+
+    .site-copy {
+      color: #fff;
+    }
+
+    .section-form {
+      margin-top: $site-gutter-val;
+      margin-bottom: $site-gutter-val;
+      
+      @media screen and (min-width: 960px) {
+        margin-top: $site-gutter-val--desktop;
+        margin-bottom: $site-gutter-val--desktop;
+      }
+    }
+  }
+
+}
+
+// ================================
+// == Technology - papers page styles
+// ================================
+.technology-papers {
+
+  .section-content {
+    padding: 0 $site-gutter-val;
+    
+    @media screen and (min-width: 960px) {
+      padding: 0;
+    }
+  }
+  
+  .section-hero__secondary {
+    width: 100%;
+    max-width: 540px;
+    margin: $site-gutter-val auto;
+    
+    @media screen and (min-width: 960px) {
+      margin-top: $site-gutter-val--desktop;
+      margin-bottom: $site-gutter-val--desktop;
+    }
+  }
+
 }
