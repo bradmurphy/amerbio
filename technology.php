@@ -1,4 +1,4 @@
-<?php 
+<?php
 
   /* Template Name: Technology Page */
 
@@ -8,9 +8,9 @@
 
 
 <section class="technology">
-    
+
     <div class="section-hero">
-      
+
       <div class="section-hero__content">
         <h1 class="section-hero__headline">The Technology</h1>
         <div class="section-hero__divider"></div>
@@ -27,7 +27,7 @@
         <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/site-theme/assets/img/icon-prism.png" alt="icon" class="section-content-icon">
 
         <h2 class="site-section__headline">A New Method for Screening</h2>
-        
+
         <div class="section-content">
             <div class="section-content__cell">
                 <p class="site-copy">
@@ -39,7 +39,7 @@
                 <p class="site-copy">
                     This interaction provides unique insight into abnormalities in healthy appearing tissue that are too small to be seen with an endoscope or microscope. Such subtle changes, including an increase in blood flow to the surface cells lining the colon and changes in the architecture of the cells themselves, can be assessed from the rectum and have been linked to an increased risk of cancer in our early human studies.
                 </p>
-            </div>  
+            </div>
         </div>
 
     </div>
@@ -58,7 +58,7 @@
             </p>
 
             <form class="section-form">
-                <input class="section-form__input" type="email" placeholder="Type your email here">
+                <input class="section-form__input" type="email" placeholder="Type your email here.">
                 <button class="section-form__button">Go</button>
             </form>
 
