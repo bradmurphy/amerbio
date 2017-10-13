@@ -20,8 +20,10 @@ $site-font-proxima--semi-bold: 'proxima_nova_ltsemibold', sans-serif;
 $site-font-proxima--bold: 'proxima_nova_altbold', sans-serif;
 $site-font-proxima--black: 'proxima_nova_altblack', sans-serif;
 
+$site-font-montserrat: 'Montserrat', sans-serif;
+
 .site-copy {
-  font-family: 'proxima_nova_scosfthin', sans-serif;
+  font-family: $site-font-montserrat;
   font-size: 16px;
   line-height: 24px;
   color: $site-copy-grey;
@@ -52,6 +54,8 @@ $site-font-proxima--black: 'proxima_nova_altblack', sans-serif;
   }
 
   &--cite {
+    font-family: $site-font-montserrat;
+    font-weight: 300i;
     font-size: 12px;
     line-height: 22px;
   }
@@ -92,17 +96,17 @@ $site-font-proxima--black: 'proxima_nova_altblack', sans-serif;
   }
 
   &__headline {
-    font-family: $site-font-proxima--light;
+    font-family: $$site-font-montserrat;
     font-size: 36px;
     line-height: 48px;
-    font-weight: 100;
+    font-weight: 300;
     color: $site-blue;
 
     &--sml {
-      font-family: $site-font-proxima;
+      font-family: $site-font-montserrat;
       font-size: 14px;
       line-height: 24px;
-      font-weight: 100;
+      font-weight: 300;
       color: $site-copy-grey;
       text-transform: uppercase;
       letter-spacing: 2px;
@@ -132,6 +136,7 @@ $site-font-proxima--black: 'proxima_nova_altblack', sans-serif;
   }
 }
 
+// general "max-width-ed" sections
 .site-section {
   box-sizing: border-box;
   width: 100%;
@@ -146,17 +151,17 @@ $site-font-proxima--black: 'proxima_nova_altblack', sans-serif;
   }
 
   &__headline {
-    font-family: $site-font-proxima--light;
+    font-family: $site-font-montserrat;
     font-size: 28px;
     line-height: 48px;
-    font-weight: 100;
+    font-weight: 300;
     color: $site-copy-grey;
 
     &--lrg {
-      font-family: $site-font-proxima--light;
+      font-family: $site-font-montserrat;
       font-size: 36px;
       line-height: 48px;
-      font-weight: 100;
+      font-weight: 300;
       color: $site-blue;
       text-align: center
     }
@@ -200,6 +205,7 @@ $site-font-proxima--black: 'proxima_nova_altblack', sans-serif;
   }
 }
 
+// side bar sections (offset columns)
 .section-side-bar {
   flex: 1;
   width: 100%;
@@ -217,6 +223,7 @@ $site-font-proxima--black: 'proxima_nova_altblack', sans-serif;
   flex: 6;
 }
 
+// flex box sections "cells"
 .section-content__cell,
 .section-content__article {
   box-sizing: border-box;
@@ -235,6 +242,7 @@ $site-font-proxima--black: 'proxima_nova_altblack', sans-serif;
   }
 }
 
+// site form styles
 .section-form {
   display: flex;
   height: 40px;
@@ -264,6 +272,14 @@ $site-font-proxima--black: 'proxima_nova_altblack', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     cursor: pointer;
+  }
+}
+// site list styles
+.section-content__list {
+  &-item {
+    font-size: 14px;
+    line-height: 22px;
+    list-style-image: url('../img/icon-list-item.png');
   }
 }
 

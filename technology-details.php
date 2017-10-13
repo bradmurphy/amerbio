@@ -1,4 +1,4 @@
-<?php 
+<?php
 
   /* Template Name: Technology Details Page */
 
@@ -6,13 +6,10 @@
 
 <?php include 'header.php';?>
 
-
-
-
 <section class="technology-details">
-    
+
     <div class="section-hero">
-      
+
       <div class="section-hero__content">
         <h3 class="section-hero__headline--sml">The Technology</h3>
         <h1 class="section-hero__headline">More About Our Technology</h1>
@@ -20,7 +17,7 @@
     </div>
 
     <div class="site-section">
-        
+
         <div class="section-content">
             <div class="section-content__cell">
                 <p class="site-copy">
@@ -35,14 +32,14 @@
                 <p class="site-copy">
                     Identification of subtle abnormalities inside the colon can help physicians recognize patients at high risk for cancer.
                 </p>
-            </div>  
+            </div>
         </div>
 
     </div>
 
     <div class="technology-details__graph">
         <h1 class="site-section__headline--lrg">Scattering Angle and Intensity vs. Wavelength (nm)</h1>
-        
+
 
         <div class="section-content">
             <div class="section-content__cell">
@@ -57,7 +54,7 @@
                 <p class="site-copy">
                     Spectral reflection from a patient with an advanced adenoma on colonoscopy
                 </p>
-            </div>  
+            </div>
         </div>
     </div>
 
@@ -65,7 +62,7 @@
 
         <h1 class="site-section__headline--lrg">A New Method for Screening</h1>
         <p class="site-copy site-copy--lrg">ABO holds an exclusive license to six pending patents on optics technologies. They include:</p>
-        
+
         <div class="section-content">
             <div class="section-content__cell">
                 <p class="site-copy site-copy--lrg">
@@ -76,11 +73,10 @@
                     The United States Preventive Services Task Force recommends one of the following screening technologies for men and women, aged 50 and older:
                 </p>
                 <ul class="section-content__list">
-                    <li>LEBS is sensitive to changes in intracellular organization that are otherwise undetectable by histology.</li>
-                    <li>LEBS signals mostly depend on the second-order scattering of weakly localized photons by tissue structures.  This contrast mechanism is unique to LEBS and cannot be probed by existing techniques.</li>
-                    <li>LEBS enables physicians and technicians to identify potential risk for the development of cancer and its progression by sensing changes in histologically normal-appearing tissue at a distance from a cancerous lesion.</li>
+                    <li class="section-content__list-item">LEBS is sensitive to changes in intracellular organization that are otherwise undetectable by histology.</li>
+                    <li class="section-content__list-item">LEBS signals mostly depend on the second-order scattering of weakly localized photons by tissue structures.  This contrast mechanism is unique to LEBS and cannot be probed by existing techniques.</li>
+                    <li class="section-content__list-item">LEBS enables physicians and technicians to identify potential risk for the development of cancer and its progression by sensing changes in histologically normal-appearing tissue at a distance from a cancerous lesion.</li>
                 </ul>
-
             </div>
 
             <div class="section-content__cell">
@@ -90,7 +86,7 @@
                 <p class="site-copy">
                     This technology obtains comprehensive data from photons undergoing single light scattering in tissue. ELF-based techniques have been shown to allow precise localization of polyps during colonoscopy through an endoscopically compatible probe. 4-D ELF allows acquisition of light-scattering data in several dimensions. These include wavelength of light, the scattering angle, azimuthal angle of scattering and polarization of scattered light.
                 </p>
-            </div>  
+            </div>
         </div>
 
     </div>

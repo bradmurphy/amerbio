@@ -1,18 +1,15 @@
-<?php 
+<?php
 
-  /* Template Name: Technical Papers Page */
+  /* Template Name: Technology Papers Page */
 
 ?>
 
 <?php include 'header.php';?>
 
-
-
-
 <section class="technology-papers">
-    
+
     <div class="section-hero">
-      
+
       <div class="section-hero__content">
         <h3 class="section-hero__headline--sml">The Technology</h3>
         <h1 class="section-hero__headline">Technical Papers</h1>
@@ -81,7 +78,6 @@
     	</article>
 
     </div>
-
 
 </section>
 

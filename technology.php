@@ -6,7 +6,6 @@
 
 <?php include 'header.php';?>
 
-
 <section class="technology">
 
     <div class="section-hero">
@@ -65,7 +64,6 @@
             <p class="site-copy site-copy--cite">ABO will not share your email address with anyone.</p>
         </div>
     </div>
-
 
 </section>
 

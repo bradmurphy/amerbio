@@ -2,7 +2,7 @@
 // == Technology page styles
 // ================================
 .technology {
-  
+
   .section-hero__secondary {
     width: 100%;
     max-width: 359px;
@@ -12,7 +12,7 @@
   .site-section {
     margin-top: $site-gutter-val;
     margin-bottom: 0;
-    
+
     &__headline {
       margin-top: $site-gutter-val;
       text-align: center;
@@ -25,7 +25,7 @@
 
     @media screen and (min-width: 960px) {
       margin-top: $site-gutter-val--desktop;
-      
+
       &__headline {
         margin-top: $site-gutter-val--desktop;
       }
@@ -39,7 +39,7 @@
 
   .section-content {
     margin-top: 0;
-    
+
     &__cell {
       text-align: left
     }
@@ -50,10 +50,10 @@
     &__content {
       max-width: 450px;
     }
-    
+
     .site-section {
       margin-top: $site-gutter-val;
-      
+
       &__headline {
         color: #fff;
       }
@@ -70,7 +70,7 @@
     .section-form {
       margin-top: $site-gutter-val;
       margin-bottom: $site-gutter-val;
-      
+
       @media screen and (min-width: 960px) {
         margin-top: $site-gutter-val--desktop;
         margin-bottom: $site-gutter-val--desktop;
