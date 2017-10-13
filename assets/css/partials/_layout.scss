@@ -221,6 +221,8 @@ $site-font-montserrat: 'Montserrat', sans-serif;
 
 .section-main {
   flex: 6;
+
+  // @media screen and (min-width: 960px) {}
 }
 
 // flex box sections "cells"
