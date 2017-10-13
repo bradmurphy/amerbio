@@ -151,6 +151,15 @@ $site-font-proxima--black: 'proxima_nova_altblack', sans-serif;
     line-height: 48px;
     font-weight: 100;
     color: $site-copy-grey;
+    
+    &--lrg {
+      font-family: $site-font-proxima--light;
+      font-size: 36px;
+      line-height: 48px;
+      font-weight: 100;
+      color: $site-blue;
+      text-align: center
+    }
   }
 }
 
@@ -184,6 +193,10 @@ $site-font-proxima--black: 'proxima_nova_altblack', sans-serif;
 
   &-icon--email {
     max-width: 40.5px;
+  }
+
+  &-icon--graph {
+    max-width: 130px;
   }
 }
 
@@ -227,3 +240,46 @@ $site-font-proxima--black: 'proxima_nova_altblack', sans-serif;
 }
 
 
+.technology-details {
+
+  .section-content__cell {
+    text-align: left;
+  }
+
+  &__graph {
+    background: $site-grey;
+    padding: $site-gutter-val $site-gutter-val 0 $site-gutter-val;
+    
+    .site-section__headline {
+      text-align: center;
+    }
+
+    .site-copy {
+      flex: 1;
+    }
+
+    .section-content {
+      box-sizing: border-box;
+      padding: 0 $site-gutter-val;
+    
+      &__cell {
+        display: flex;
+        align-items: center;
+      }
+
+      &-icon--graph {
+        margin-right: 20px;
+      }
+
+      @media screen and (min-width: 960px) {
+        padding: 0 $site-gutter-val--desktop;
+      }
+
+    }
+
+    @media screen and (min-width: 960px) {
+      padding: $site-gutter-val--desktop $site-gutter-val--desktop 0 $site-gutter-val--desktop;
+    }
+  }
+  
+}
