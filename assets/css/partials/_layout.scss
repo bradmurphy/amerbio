@@ -238,9 +238,9 @@ $site-font-proxima--black: 'proxima_nova_altblack', sans-serif;
 .section-form {
   display: flex;
   height: 40px;
-  border-radius: 4px;
   width: 100%;
   max-width: 400px;
+  margin: 0 auto;
 
   &__input {
     box-sizing: border-box;
@@ -266,12 +266,6 @@ $site-font-proxima--black: 'proxima_nova_altblack', sans-serif;
     cursor: pointer;
   }
 }
-
-<form class="section-form">
-    <input class="section-form__input" type="email" placeholder="Type your email here.">
-    <button class="section-form__button">Go</button>
-</form>
-
 
 .technology-details {
 
