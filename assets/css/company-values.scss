@@ -2,4 +2,30 @@
 // == Company Values page styles
 // ================================
 .company-values {
+  .section-content__cell {
+    text-align: left;
+  }
+
+  .site-copy--company {
+    width: 100%;
+    max-width: 565px;
+    margin: $site-gutter-val auto 0 auto;
+    
+    @media screen and (min-width: 960px) {
+      margin: $site-gutter-val--desktop auto 0 auto;
+    }
+  }
+
+  .site-copy--values {
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+
+  .section-hero__secondary {
+    width: 100%;
+    max-width: 630px;
+    margin: 0 auto;
+    padding: 0 $site-gutter-val;
+  }
 }
+

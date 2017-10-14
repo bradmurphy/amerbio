@@ -96,9 +96,13 @@ $site-font-montserrat: 'Montserrat', sans-serif;
     display: block;
     width: 200px;
     height: 2px;
-    margin: 0 auto 20px auto;
+    margin: 0 auto $site-gutter-val auto;
     padding: 0;
     background: $site-blue;
+    
+    @media screen and (min-width: 960px) {
+      margin-bottom: $site-gutter-val--desktop;
+    }
   }
 
   &__headline {
@@ -336,4 +340,3 @@ $site-font-montserrat: 'Montserrat', sans-serif;
     display: inline-block;
   }
 }
-
