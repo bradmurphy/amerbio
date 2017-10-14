@@ -217,6 +217,15 @@ $site-font-montserrat: 'Montserrat', sans-serif;
   width: 100%;
   text-align: left;
   margin-right: 30px;
+  
+  .site-copy {
+    color: $site-blue--dark;
+    margin-bottom: 20px;
+    
+    @media screen and (min-width: 960px) {
+      margin-bottom: 0;
+    }
+  }
 
   @media screen and (min-width: 960px) {
     min-width: 100px;
@@ -313,3 +322,4 @@ $site-font-montserrat: 'Montserrat', sans-serif;
     display: inline-block;
   }
 }
+
