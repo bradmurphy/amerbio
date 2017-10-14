@@ -13,7 +13,7 @@
       box-sizing: border-box;
       padding: 0 $site-gutter-val;
       
-      @media screen and (min-width: 960px) {
+      @media screen and (min-width: $breakpoint_common) {
         padding: 0;
       }
     }
@@ -30,7 +30,7 @@
     background: $site-grey;
     padding: $site-gutter-val;
     
-    @media screen and (min-width: 960px) {
+    @media screen and (min-width: $breakpoint_common) {
       padding: $site-gutter-val--desktop;
     }
 
@@ -50,7 +50,7 @@
       flex-direction: column;
       align-items: flex-start; 
       
-      @media screen and (min-width: 960px) {
+      @media screen and (min-width: $breakpoint_common) {
         flex-direction: row;
       }
     }
@@ -60,7 +60,7 @@
       margin: 0 0 $site-gutter-val 0;
       // padding-right: 20px;
       
-      @media screen and (min-width: 960px) {
+      @media screen and (min-width: $breakpoint_common) {
         margin: 0 10px 0 0;
       }
     }

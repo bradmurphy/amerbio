@@ -11,7 +11,7 @@
     max-width: 565px;
     margin: $site-gutter-val auto 0 auto;
     
-    @media screen and (min-width: 960px) {
+    @media screen and (min-width: $breakpoint_common) {
       margin: $site-gutter-val--desktop auto 0 auto;
     }
   }

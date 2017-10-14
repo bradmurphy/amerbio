@@ -6,8 +6,12 @@
   .section-content {
     padding: 0 $site-gutter-val;
     
-    @media screen and (min-width: 960px) {
+    @media screen and (min-width: $breakpoint_common) {
       padding: 0;
+    }
+
+    &--lrg {
+      max-width: 1400px;
     }
   }
   
@@ -16,7 +20,7 @@
     max-width: 540px;
     margin: $site-gutter-val auto;
     
-    @media screen and (min-width: 960px) {
+    @media screen and (min-width: $breakpoint_common) {
       margin-top: $site-gutter-val--desktop;
       margin-bottom: $site-gutter-val--desktop;
     }

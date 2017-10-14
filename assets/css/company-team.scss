@@ -24,7 +24,7 @@
       box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
       margin-bottom: $site-gutter-val;
       
-      @media screen and (min-width: 960px) {
+      @media screen and (min-width: $breakpoint_common) {
         margin-bottom: 0;
       }
     }

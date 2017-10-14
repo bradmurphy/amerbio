@@ -5,8 +5,9 @@
 
   .section-hero__secondary {
     width: 100%;
-    max-width: 359px;
+    max-width: 419px;
     margin: 0 auto;
+    padding: 0 $site-gutter-val;
   }
 
   .site-section {
@@ -23,7 +24,7 @@
       margin-bottom: $site-gutter-val;
     }
 
-    @media screen and (min-width: 960px) {
+    @media screen and (min-width: $breakpoint_common) {
       margin-top: $site-gutter-val--desktop;
 
       &__headline {
@@ -48,7 +49,9 @@
   .section-footer {
 
     &__content {
-      max-width: 450px;
+      max-width: 585px;
+      padding-left: $site-gutter-val;
+      padding-right: $site-gutter-val;
     }
 
     .site-section {
@@ -56,9 +59,13 @@
 
       &__headline {
         color: #fff;
+        
+        @media screen and (min-width: $breakpoint_common) {
+          margin: 20px auto;;
+        }
       }
 
-      @media screen and (min-width: 960px) {
+      @media screen and (min-width: $breakpoint_common) {
         margin-top: $site-gutter-val--desktop;
       }
     }
@@ -71,7 +78,7 @@
       margin-top: $site-gutter-val;
       margin-bottom: $site-gutter-val;
 
-      @media screen and (min-width: 960px) {
+      @media screen and (min-width: $breakpoint_common) {
         margin-top: $site-gutter-val--desktop;
         margin-bottom: $site-gutter-val--desktop;
       }

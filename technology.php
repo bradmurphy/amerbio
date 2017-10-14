@@ -50,7 +50,7 @@
     <div class="section-footer">
         <div class="section-footer__content">
             <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/site-theme/assets/img/icon-email.png" alt="icon" class="section-content-icon section-content-icon--email">
-            <h2 class="site-section__headline">A New Method for Screening</h2>
+            <h2 class="site-section__headline">Stay in touch</h2>
 
             <p class="site-copy">
                 If you would like to learn more about our company or if you are interested in future technology trials, please sign up for our mailing list by typing your email address below.

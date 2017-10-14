@@ -1,6 +1,10 @@
 // ================================
 // == layout ======================
 // ================================
+//vars
+$breakpoint_common: 922px;
+$breakpoint_tablet: 767px;
+
 // colors
 $site-blue: #74b0d8;
 $site-blue--dark: #1b80c2;
@@ -100,7 +104,7 @@ $site-font-montserrat: 'Montserrat', sans-serif;
     padding: 0;
     background: $site-blue;
     
-    @media screen and (min-width: 960px) {
+    @media screen and (min-width: $breakpoint_common) {
       margin-bottom: $site-gutter-val--desktop;
     }
   }
@@ -140,7 +144,7 @@ $site-font-montserrat: 'Montserrat', sans-serif;
     color: #fff;
     text-align: center;
 
-    @media screen and (min-width: 960px) {
+    @media screen and (min-width: $breakpoint_common) {
       padding: $site-gutter-val--desktop 0;
     }
   }
@@ -155,7 +159,7 @@ $site-font-montserrat: 'Montserrat', sans-serif;
   padding: 0 $site-gutter-val;
   text-align: center;
 
-  @media screen and (min-width: 960px) {
+  @media screen and (min-width: $breakpoint_common) {
     margin: 0 auto $site-gutter-val--desktop auto;
     padding: 0 $site-gutter-val--desktop;
   }
@@ -191,7 +195,7 @@ $site-font-montserrat: 'Montserrat', sans-serif;
     max-width: $site-max-width;
   }
 
-  @media screen and (min-width: 960px) {
+  @media screen and (min-width: $breakpoint_common) {
     flex-direction: row;
     flex-wrap: wrap;
     margin: $site-gutter-val--desktop auto;
@@ -226,12 +230,12 @@ $site-font-montserrat: 'Montserrat', sans-serif;
     color: $site-blue--dark;
     margin-bottom: 20px;
     
-    @media screen and (min-width: 960px) {
+    @media screen and (min-width: $breakpoint_common) {
       margin-bottom: 0;
     }
   }
 
-  @media screen and (min-width: 960px) {
+  @media screen and (min-width: $breakpoint_common) {
     min-width: 100px;
     text-align: right;
     margin-right: 30px;
@@ -241,7 +245,7 @@ $site-font-montserrat: 'Montserrat', sans-serif;
 .section-main {
   flex: 6;
 
-  // @media screen and (min-width: 960px) {}
+  // @media screen and (min-width: $breakpoint_common) {}
 }
 
 // flex box sections "cells"
@@ -252,7 +256,7 @@ $site-font-montserrat: 'Montserrat', sans-serif;
   flex-basis: 100%;
   padding: 0 0 $site-gutter-val 0;
 
-  @media screen and (min-width: 960px) {
+  @media screen and (min-width: $breakpoint_common) {
     width: 50%;
     flex-basis: 50%;
     padding: 0 2.5% $site-gutter-val--desktop 5%;
@@ -321,7 +325,7 @@ $site-font-montserrat: 'Montserrat', sans-serif;
     
   }
 
-  @media screen and (min-width: 960px) {
+  @media screen and (min-width: $breakpoint_common) {
     padding-left: $site-gutter-val--desktop;
   }
 }

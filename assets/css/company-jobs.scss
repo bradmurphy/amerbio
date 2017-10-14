@@ -21,7 +21,7 @@
     .site-section__headline {
       margin-top: $site-gutter-val;
       
-      @media screen and (min-width: 960px) {
+      @media screen and (min-width: $breakpoint_common) {
         margin-top: $site-gutter-val--desktop;
       }
     }
@@ -55,7 +55,7 @@
 
   .mobile-copy {
     
-    @media screen and (min-width: 960px) {
+    @media screen and (min-width: $breakpoint_common) {
       display: none;
     }
   }
@@ -63,7 +63,7 @@
   .desktop-copy {
     display: none;
     
-    @media screen and (min-width: 960px) {
+    @media screen and (min-width: $breakpoint_common) {
       display: block;
     }
   }

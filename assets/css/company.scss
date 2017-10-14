@@ -17,7 +17,7 @@
     padding-top: $site-gutter-val;
     padding-bottom: $site-gutter-val;
     
-    @media screen and (min-width: 960px) {
+    @media screen and (min-width: $breakpoint_common) {
       padding-top: $site-gutter-val--desktop;
       padding-bottom: $site-gutter-val--desktop;
     }
@@ -44,7 +44,7 @@
       .section-content-icon {
         margin: 0 0 $site-gutter-val 0;
         
-        @media screen and (min-width: 960px) {
+        @media screen and (min-width: $breakpoint_common) {
           margin: 0;
         }
       }

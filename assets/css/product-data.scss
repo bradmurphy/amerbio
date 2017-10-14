@@ -17,7 +17,7 @@
   .site-copy--heading {
     margin: $site-gutter-val;
     
-    @media screen and (min-width: 960px) {
+    @media screen and (min-width: $breakpoint_common) {
       margin: $site-gutter-val--desktop 0;
     }
   }
@@ -66,13 +66,9 @@
       &__headline {
         color: #fff;
         margin-bottom: $site-gutter-val;
-        
-        @media screen and (min-width: 960px) {
-          margin-bottom: $site-gutter-val--desktop;
-        }
       }
 
-      @media screen and (min-width: 960px) {
+      @media screen and (min-width: $breakpoint_common) {
         margin-top: $site-gutter-val--desktop;
       }
     }
@@ -85,7 +81,7 @@
       margin-top: $site-gutter-val;
       margin-bottom: $site-gutter-val;
 
-      @media screen and (min-width: 960px) {
+      @media screen and (min-width: $breakpoint_common) {
         margin-top: $site-gutter-val--desktop;
         margin-bottom: $site-gutter-val--desktop;
       }
