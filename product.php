@@ -15,7 +15,7 @@
         <div class="section-hero__divider"></div>
 
         <div class="section-hero__secondary">
-            <p class="site-copy">
+            <p class="site-copy site-copy--lrg site-copy--spc">
                 Individuals at risk for colon cancer often go undetected, until it's too late.
             </p>
         </div>
@@ -23,7 +23,7 @@
         <div class="section-content">
           <div class="section-content__cell">
               <p class="site-copy">
-                  The statistics are grim: colorectal canceris the second leading cause of cancer deaths in the United States. More than 150,000 men and women are affected each year. More surprisingly, those who are diagnosed often have no familyhistory of colon cancer, or other identifiable risk factors.
+                  The statistics are grim: colorectal cancer is the second leading cause of cancer deaths in the United States. More than 150,000 men and women are affected each year. More surprisingly, those who are diagnosed often have no family history of colon cancer, or other identifiable risk factors.
               </p>
           </div>
 
@@ -48,7 +48,7 @@
 
     <div class="site-section site-section--product-vision">
 
-        <div class="section-content">
+        <div class="section-content section-content--lrg">
             <div class="section-content__cell">
               <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/site-theme/assets/img/icon-prism.png" alt="icon" class="section-content-icon">
 
@@ -63,10 +63,10 @@
                   American BioOptics believes that such a test, which would use proprietary optical technology, has the potential to be:
                 </p>
                 <ul class="section-content__list">
-                  <li class="section-content__list-item">Office-based</li>
-                  <li class="section-content__list-item">Inexpensive</li>
-                  <li class="section-content__list-item">No-prep, and</li>
-                  <li class="section-content__list-item">Highly accurate</li>
+                  <li class="site-copy section-content__list-item">Office-based</li>
+                  <li class="site-copy section-content__list-item">Inexpensive</li>
+                  <li class="site-copy section-content__list-item">No-prep, and</li>
+                  <li class="site-copy section-content__list-item">Highly accurate</li>
                 </ul>
               </div>
             </div>

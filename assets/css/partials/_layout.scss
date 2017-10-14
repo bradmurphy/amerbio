@@ -293,4 +293,18 @@ $site-font-montserrat: 'Montserrat', sans-serif;
   }
 }
 
+// footer email cta
+.technology-footer-cta {
+  display: inline-block;
+  box-sizing: border-box;
+  background: #353535;
+  padding: 20px 30px;
+  margin: 20px 0;
+  border-radius: 4px;
+  
+  .section-content-icon--email {
+    margin: 0;
+    display: inline-block;
+  }
+}
 
