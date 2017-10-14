@@ -259,6 +259,20 @@ $site-font-montserrat: 'Montserrat', sans-serif;
   }
 }
 
+.section-content__news {
+  &:after {
+    content: '';
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid $site-grey;
+    padding-top: $site-gutter-val;
+  }
+
+  &:last-of-type:after {
+    display: none;
+  }
+}
+
 // site form styles
 .section-form {
   display: flex;
