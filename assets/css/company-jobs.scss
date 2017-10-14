@@ -1,5 +1,72 @@
 // ================================
 // == Company Jobs page styles
 // ================================
+.company-jobs {
+  .section-content__cell {
+    text-align: left
+  }
 
+  .section-hero {
+
+    .section-hero__secondary {
+      box-sizing: border-box;
+      width: 100%;
+      max-width: 690px;
+      margin: 0 auto;
+      padding: 0 $site-gutter-val;
+    }
+  }
+
+  .site-section {
+    .site-section__headline {
+      margin-top: $site-gutter-val;
+      
+      @media screen and (min-width: 960px) {
+        margin-top: $site-gutter-val--desktop;
+      }
+    }
+  }
+
+  .section-footer {
+
+    padding: $site-gutter-val 0;
+
+    &__content {
+      max-width: 736px;
+      padding: 0 20px;
+    }
+
+    .site-copy,
+    .site-section__headline {
+      color: #fff;
+    }
+
+    .site-section__headline {
+      margin-bottom: 20px;
+    }
+
+    .site-copy--cite {
+      width: 100%;
+      max-width: 570px;
+      margin: 0 auto;
+      font-weight: 300i;
+    }
+  }
+
+  .mobile-copy {
+    
+    @media screen and (min-width: 960px) {
+      display: none;
+    }
+  }
+
+  .desktop-copy {
+    display: none;
+    
+    @media screen and (min-width: 960px) {
+      display: block;
+    }
+  }
+
+}
 
