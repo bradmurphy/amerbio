@@ -24,7 +24,7 @@
     </div>
 
     <div class="site-section">
-      <p class="site-copy site-copy--lrg">Trial results</p>
+      <p class="site-copy site-copy--lrg site-copy--heading">Trial results</p>
 
       <div class="section-content">
         <div class="section-content__cell">
@@ -58,14 +58,14 @@
       <div class="site-section site-section--link">
           <a href="#" class="site-copy site-copy--link">READ ABOUT OUR TECHNOLOGY IN OUR TECHNICAL PAPERS</a>
       </div>
-      <p class="site-copy site-copy--cite">
+      <p class="site-copy site-copy--cite site-copy--data">
         (Source: Risk-Stratification of Colon Carcinogenesis through Enhanced Backscattering (EBS) Spectroscopy Analysis of the Uninvolved Colonic Mucosa by H. K. Roy, Y. L. Kim, Y. Liu, R. K. Wali, M. J. Goldberg, V. Turhitsky, J. Horwitz, V. Backman. Clinical Cancer Research, 19(3), 961-968 (2006).)
       </p>
     </div>
 
     <div class="site-section site-section--lrg">
 
-      <p class="site-copy site-copy--lrg">Selected Clinincal Papers</p>
+      <p class="site-copy site-copy--lrg site-copy--heading">Selected Clinincal Papers</p>
 
       <div class="section-content section-content--lrg">
       	<article class="section-content__article">
@@ -193,7 +193,7 @@
         <h2 class="site-section__headline">Email sign-up for doctors</h2>
 
         <p class="site-copy">
-            If you are a physician and would like to be informed of new developments atAmerican BioOptics, please contact us at:
+            If you are a physician and would like to be informed of new developments at American BioOptics, please contact us at:
         </p>
 
         <a href="#" class="technology-footer-cta">

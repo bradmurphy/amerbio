@@ -313,26 +313,3 @@ $site-font-montserrat: 'Montserrat', sans-serif;
     display: inline-block;
   }
 }
-
-.product-prevent {
-  .section-content__cell {
-    text-align: left;
-  }
-
-  .section-hero__secondary {
-    width: 100;
-    max-width: 523px;
-    margin: 0 auto;
-    
-    .site-copy--cite {
-      margin-top: 30px;
-    }
-  }
-
-  .site-copy--heading {
-    margin-top: $site-gutter-val;
-    @media screen and (min-width: 960px) {
-      margin-top: $site-gutter-val--desktop;
-    }
-  }
-}
