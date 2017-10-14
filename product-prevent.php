@@ -26,7 +26,7 @@
 
     <div class="site-section">
 
-        <p class="site-copy site-copy--lrg">Screening Technologies</p>
+        <p class="site-copy site-copy--lrg site-copy--heading">Screening Technologies</p>
 
         <div class="section-content">
             <div class="section-content__cell">
@@ -37,10 +37,10 @@
                   The United States Preventive Services Task Force recommends one of the following screening technologies for men and women, aged 50 and older:
                 </p>
                 <ul class="section-content__list">
-                  <li class="section-content__list-item">Colonoscopy</li>
-                  <li class="section-content__list-item">Sigmoidoscopy</li>
-                  <li class="section-content__list-item">Fecal occult blood test (FOBT)</li>
-                  <li class="section-content__list-item">Double-contrast barium enema</li>
+                  <li class="site-copy section-content__list-item">Colonoscopy</li>
+                  <li class="site-copy section-content__list-item">Sigmoidoscopy</li>
+                  <li class="site-copy section-content__list-item">Fecal occult blood test (FOBT)</li>
+                  <li class="site-copy section-content__list-item">Double-contrast barium enema</li>
                 </ul>
             </div>
 
@@ -54,28 +54,6 @@
             </div>
         </div>
 
-    </div>
-
-    <div class="site-section site-section--link">
-        <a href="#" class="site-copy site-copy--link">Read about our technology</a>
-    </div>
-
-    <div class="section-footer">
-        <div class="section-footer__content">
-            <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/site-theme/assets/img/icon-email.png" alt="icon" class="section-content-icon section-content-icon--email">
-            <h2 class="site-section__headline">A New Method for Screening</h2>
-
-            <p class="site-copy">
-                If you would like to learn more about our company or if you are interested in future technology trials, please sign up for our mailing list by typing your email address below.
-            </p>
-
-            <form class="section-form">
-                <input class="section-form__input" type="email" placeholder="Type your email here.">
-                <button class="section-form__button">Go</button>
-            </form>
-
-            <p class="site-copy site-copy--cite">ABO will not share your email address with anyone.</p>
-        </div>
     </div>
 
 </section>

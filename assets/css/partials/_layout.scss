@@ -34,6 +34,11 @@ $site-font-montserrat: 'Montserrat', sans-serif;
     font-weight: 300;
   }
 
+  &--heading {
+    font-size: 26px;
+    line-height: 32px;
+  }
+
   &--link {
     font-weight: 400;
     line-height: 48px;
@@ -251,10 +256,11 @@ $site-font-montserrat: 'Montserrat', sans-serif;
   height: 40px;
   width: 100%;
   max-width: 400px;
-  margin: 0 auto;
+  margin: 20px auto;
 
   &__input {
     box-sizing: border-box;
+    background: #fff;
     padding: 0 10px;
     width: 100%;
     outline: 0;
@@ -308,3 +314,25 @@ $site-font-montserrat: 'Montserrat', sans-serif;
   }
 }
 
+.product-prevent {
+  .section-content__cell {
+    text-align: left;
+  }
+
+  .section-hero__secondary {
+    width: 100;
+    max-width: 523px;
+    margin: 0 auto;
+    
+    .site-copy--cite {
+      margin-top: 30px;
+    }
+  }
+
+  .site-copy--heading {
+    margin-top: $site-gutter-val;
+    @media screen and (min-width: 960px) {
+      margin-top: $site-gutter-val--desktop;
+    }
+  }
+}
