@@ -1,0 +1,58 @@
+// ================================
+// == Technology details page styles
+// ================================
+.technology-details {
+
+  .section-content__cell {
+    text-align: left;
+  }
+
+  .site-copy--spc {
+    width: 100%;
+    max-width: 780px;
+    margin: 0 auto;
+  }
+
+  &__graph {
+    background: $site-grey;
+    padding: $site-gutter-val $site-gutter-val 0 $site-gutter-val;
+
+    .site-section__headline {
+      text-align: center;
+      
+      &--lrg {
+        width: 100%;
+        max-width: 580px;
+        margin: 0 auto;
+      }
+    }
+
+    .site-copy {
+      flex: 1;
+    }
+
+    .section-content {
+      box-sizing: border-box;
+      padding: 0 $site-gutter-val;
+
+      &__cell {
+        display: flex;
+        align-items: center;
+      }
+
+      &-icon--graph {
+        margin-right: 20px;
+      }
+
+      @media screen and (min-width: 960px) {
+        padding: 0 $site-gutter-val--desktop;
+      }
+
+    }
+
+    @media screen and (min-width: 960px) {
+      padding: $site-gutter-val--desktop $site-gutter-val--desktop 0 $site-gutter-val--desktop;
+    }
+  }
+
+}

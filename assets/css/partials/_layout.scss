@@ -31,6 +31,7 @@ $site-font-montserrat: 'Montserrat', sans-serif;
   &--lrg {
     font-size: 22px;
     line-height: 30px;
+    font-weight: 300;
   }
 
   &--link {
@@ -96,7 +97,7 @@ $site-font-montserrat: 'Montserrat', sans-serif;
   }
 
   &__headline {
-    font-family: $$site-font-montserrat;
+    font-family: $site-font-montserrat;
     font-size: 36px;
     line-height: 48px;
     font-weight: 300;
@@ -278,53 +279,18 @@ $site-font-montserrat: 'Montserrat', sans-serif;
 }
 // site list styles
 .section-content__list {
+  padding-left: $site-gutter-val;
+
   &-item {
     font-size: 14px;
     line-height: 22px;
-    list-style-image: url('../img/icon-list-item.png');
+    list-style-image: url('assets/img/icon-list-item.png');
+    
+  }
+
+  @media screen and (min-width: 960px) {
+    padding-left: $site-gutter-val--desktop;
   }
 }
 
-.technology-details {
 
-  .section-content__cell {
-    text-align: left;
-  }
-
-  &__graph {
-    background: $site-grey;
-    padding: $site-gutter-val $site-gutter-val 0 $site-gutter-val;
-
-    .site-section__headline {
-      text-align: center;
-    }
-
-    .site-copy {
-      flex: 1;
-    }
-
-    .section-content {
-      box-sizing: border-box;
-      padding: 0 $site-gutter-val;
-
-      &__cell {
-        display: flex;
-        align-items: center;
-      }
-
-      &-icon--graph {
-        margin-right: 20px;
-      }
-
-      @media screen and (min-width: 960px) {
-        padding: 0 $site-gutter-val--desktop;
-      }
-
-    }
-
-    @media screen and (min-width: 960px) {
-      padding: $site-gutter-val--desktop $site-gutter-val--desktop 0 $site-gutter-val--desktop;
-    }
-  }
-
-}

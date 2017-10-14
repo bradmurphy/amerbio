@@ -60,8 +60,8 @@
 
     <div class="site-section">
 
-        <h1 class="site-section__headline--lrg">A New Method for Screening</h1>
-        <p class="site-copy site-copy--lrg">ABO holds an exclusive license to six pending patents on optics technologies. They include:</p>
+        <h1 class="site-section__headline--lrg">Pending Patents</h1>
+        <p class="site-copy site-copy--lrg site-copy--spc">ABO holds an exclusive license to six pending patents on optics technologies. They include:</p>
 
         <div class="section-content">
             <div class="section-content__cell">
@@ -73,9 +73,9 @@
                     The United States Preventive Services Task Force recommends one of the following screening technologies for men and women, aged 50 and older:
                 </p>
                 <ul class="section-content__list">
-                    <li class="section-content__list-item">LEBS is sensitive to changes in intracellular organization that are otherwise undetectable by histology.</li>
-                    <li class="section-content__list-item">LEBS signals mostly depend on the second-order scattering of weakly localized photons by tissue structures.  This contrast mechanism is unique to LEBS and cannot be probed by existing techniques.</li>
-                    <li class="section-content__list-item">LEBS enables physicians and technicians to identify potential risk for the development of cancer and its progression by sensing changes in histologically normal-appearing tissue at a distance from a cancerous lesion.</li>
+                    <li class="site-copy section-content__list-item">LEBS is sensitive to changes in intracellular organization that are otherwise undetectable by histology.</li>
+                    <li class="site-copy section-content__list-item">LEBS signals mostly depend on the second-order scattering of weakly localized photons by tissue structures.  This contrast mechanism is unique to LEBS and cannot be probed by existing techniques.</li>
+                    <li class="site-copy section-content__list-item">LEBS enables physicians and technicians to identify potential risk for the development of cancer and its progression by sensing changes in histologically normal-appearing tissue at a distance from a cancerous lesion.</li>
                 </ul>
             </div>
 
