@@ -25,7 +25,7 @@
     <div class="news__vision">
       <div class="site-section">
         <div class="section-content">
-          <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/site-theme/assets/img/icon-prism.png" alt="icon" class="section-content-icon">
+          <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/site-theme/assets/img/icon-vision.png" alt="icon" class="section-content-icon">
 
           <div class="section-content__cell">
             <h2 class="site-section__headline">Our Vision</h2>
@@ -39,7 +39,7 @@
 
     <div class="site-section">
 
-        <div class="section-content section-content__news">
+        <div class="section-content section-content--lrg section-content__news">
             <div class="section-side-bar">
                 <p class="site-copy site-copy--date">
                     December 10, 2015
@@ -57,7 +57,7 @@
             </div>
         </div>
 
-        <div class="section-content section-content__news">
+        <div class="section-content section-content--lrg section-content__news">
             <div class="section-side-bar">
                 <p class="site-copy site-copy--date">
                     February 19, 2008
@@ -72,7 +72,7 @@
             </div>
         </div>
 
-        <div class="section-content section-content__news">
+        <div class="section-content section-content--lrg section-content__news">
             <div class="section-side-bar">
                 <p class="site-copy site-copy--date">
                     September 4, 2007
@@ -90,28 +90,6 @@
             </div>
         </div>
 
-    </div>
-
-    <div class="site-section site-section--link">
-        <a href="#" class="site-copy site-copy--link">Read about our technology</a>
-    </div>
-
-    <div class="section-footer">
-        <div class="section-footer__content">
-            <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/site-theme/assets/img/icon-email.png" alt="icon" class="section-content-icon section-content-icon--email">
-            <h2 class="site-section__headline">A New Method for Screening</h2>
-
-            <p class="site-copy">
-                If you would like to learn more about our company or if you are interested in future technology trials, please sign up for our mailing list by typing your email address below.
-            </p>
-
-            <form class="section-form">
-                <input class="section-form__input" type="email" placeholder="Type your email here.">
-                <button class="section-form__button">Go</button>
-            </form>
-
-            <p class="site-copy site-copy--cite">ABO will not share your email address with anyone.</p>
-        </div>
     </div>
 
 </section>

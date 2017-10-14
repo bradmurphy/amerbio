@@ -1,0 +1,53 @@
+// ================================
+// == Company page styles
+// ================================
+.company {
+
+  .site-section {
+    text-align: left;
+    
+    &__headline {
+      margin-top: $site-gutter-val;
+      text-align: center;
+    }
+  }
+
+  &__vision {
+    background: $site-grey;
+    padding-top: $site-gutter-val;
+    padding-bottom: $site-gutter-val;
+    
+    @media screen and (min-width: 960px) {
+      padding-top: $site-gutter-val--desktop;
+      padding-bottom: $site-gutter-val--desktop;
+    }
+
+    .site-section {
+      margin-bottom: 0;
+      
+      &__headline {
+        color: $site-blue--dark;
+        text-align: left;
+        margin-top: 0;
+      }
+    }
+
+    .section-content {
+      align-items: flex-start;
+      justify-content: center;
+      max-width: 725px;
+      
+      &__cell {
+        flex: 2;
+      }
+      
+      .section-content-icon {
+        margin: 0 0 $site-gutter-val 0;
+        
+        @media screen and (min-width: 960px) {
+          margin: 0;
+        }
+      }
+    }
+  }
+}
