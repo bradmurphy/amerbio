@@ -6,7 +6,7 @@
 
 <?php include 'header.php';?>
 
-<section class="news">
+<section class="news-press">
 
     <div class="section-hero">
 
@@ -19,7 +19,7 @@
 
     <div class="site-section">
 
-        <div class="section-content section-content__news">
+        <div class="section-content">
             <div class="section-side-bar">
                 <p class="site-copy site-copy--date">
                     For Immediate Release
