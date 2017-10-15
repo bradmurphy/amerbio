@@ -4,7 +4,7 @@
 
 ?>
 
-<?php include 'header-technology.php';?>
+<?php include 'header-techn.php';?>
 
 <section class="technology-papers">
 
