@@ -39,56 +39,34 @@
 
     <div class="site-section">
 
+        <?php
+
+        global $post;
+        $args = array( 'posts_per_page' => 5, 'category_name' => 'news' );
+
+        $myposts = get_posts( $args );
+        foreach ( $myposts as $post ) : setup_postdata( $post ); ?>
+
         <div class="section-content section-content--lrg section-content__news">
             <div class="section-side-bar">
                 <p class="site-copy site-copy--date">
-                    December 10, 2015
+                  <?php the_date(); ?>
                 </p>
             </div>
 
             <div class="section-main">
                 <p class="site-copy site-copy--lrg">
-                  Healthcare technology incubator MATTER announces American BioOptics as a new member.
+                  <?php the_title(); ?>
                 </p>
                 <p class="site-copy">
-                  American BioOptics has garnered widespread interest in its technology. Most recently, American BioOptics received a grant award from the National Institutes of Health to further its research using advanced optical technology to reduce the rate of missed polyps during a conventional colonoscopy.
+                  <?php the_content(); ?>
                 </p>
-                <a href="#" class="site-copy site-copy--link">Read more</a>
+                <a href="<?php the_permalink(); ?>" class="site-copy site-copy--link">Read more</a>
             </div>
         </div>
 
-        <div class="section-content section-content--lrg section-content__news">
-            <div class="section-side-bar">
-                <p class="site-copy site-copy--date">
-                    February 19, 2008
-                </p>
-            </div>
-
-            <div class="section-main">
-                <p class="site-copy site-copy--lrg">
-                  American BioOptics, LLC, with Evanston Northwestern Healthcare, receives Small Business Technology Transfer (STTR) award from National Institutes of Health
-                </p>
-                <a href="#" class="site-copy site-copy--link">Read more</a>
-            </div>
-        </div>
-
-        <div class="section-content section-content--lrg section-content__news">
-            <div class="section-side-bar">
-                <p class="site-copy site-copy--date">
-                    September 4, 2007
-                </p>
-            </div>
-
-            <div class="section-main">
-                <p class="site-copy site-copy--lrg">
-                  Governor Blagojevich announces $190,000 in Grants to help four high-growth, tech-based firms advance commercialization efforts in the Chicagoland area
-                </p>
-                <p class="site-copy">
-                  On September, 2007, Illinois Governor Rod R. Blagojevich granted $50,000 to American BioOpticsto help the company advance commercialization efforts and grow its business. His support comes as a part of Opportunity Returns, an economic development strategy designed to create jobs and spur growth.
-                </p>
-                <a href="#" class="site-copy site-copy--link">Read more</a>
-            </div>
-        </div>
+        <?php endforeach;
+        wp_reset_postdata();?>
 
     </div>
 
