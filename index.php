@@ -6,14 +6,14 @@
 
   <div class="site__wrap site__flex site__column">
 
-    <h1>
+    <h1 class="section-hero__headline">
       Pioneering Optical Solutions for<br>
       Colon Cancer Screening
     </h1>
 
     <div class="site__bar"></div>
 
-    <p>
+    <p class="site-copy">
       American BioOptics develops innovative diagnostic tools
       to identify patients at high risk for colorectal cancer.
     </p>
