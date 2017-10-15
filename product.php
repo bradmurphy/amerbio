@@ -50,7 +50,7 @@
 
         <div class="section-content section-content--lrg">
             <div class="section-content__cell">
-              <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/site-theme/assets/img/icon-prism.png" alt="icon" class="section-content-icon">
+              <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/amerbio/assets/img/icon-prism.png" alt="icon" class="section-content-icon">
 
               <div class="copy-cell">
                 <p class="site-copy site-copy--lrg">
@@ -72,7 +72,7 @@
             </div>
 
             <div class="section-content__cell">
-              <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/site-theme/assets/img/icon-development.png" alt="icon" class="section-content-icon">
+              <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/amerbio/assets/img/icon-development.png" alt="icon" class="section-content-icon">
               <div class="copy-cell">
                 <p class="site-copy site-copy--lrg">
                   Development Process
@@ -102,7 +102,7 @@
 
             <a href="#" class="technology-footer-cta">
               <button type="button" name="button" class="product-email-cta">
-                <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/site-theme/assets/img/icon-email.png" alt="icon" class="section-content-icon section-content-icon--email">
+                <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/amerbio/assets/img/icon-email.png" alt="icon" class="section-content-icon section-content-icon--email">
                 <span class="site-copy">info@americanbiooptics.com</span>
               </button>
             </a>

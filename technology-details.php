@@ -43,14 +43,14 @@
 
         <div class="section-content">
             <div class="section-content__cell">
-                <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/site-theme/assets/img/graph-1.png" alt="icon" class="section-content-icon section-content-icon--graph">
+                <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/amerbio/assets/img/graph-1.png" alt="icon" class="section-content-icon section-content-icon--graph">
                 <p class="site-copy">
                     Spectral reflection from a patient with no findings on colonoscopy
                 </p>
             </div>
 
             <div class="section-content__cell">
-                <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/site-theme/assets/img/graph-2.png" alt="icon" class="section-content-icon section-content-icon--graph">
+                <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/amerbio/assets/img/graph-2.png" alt="icon" class="section-content-icon section-content-icon--graph">
                 <p class="site-copy">
                     Spectral reflection from a patient with an advanced adenoma on colonoscopy
                 </p>

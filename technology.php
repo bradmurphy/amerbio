@@ -23,7 +23,7 @@
     </div>
 
     <div class="site-section">
-        <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/site-theme/assets/img/icon-prism.png" alt="icon" class="section-content-icon">
+        <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/amerbio/assets/img/icon-prism.png" alt="icon" class="section-content-icon">
 
         <h2 class="site-section__headline">A New Method for Screening</h2>
 
@@ -49,7 +49,7 @@
 
     <div class="section-footer">
         <div class="section-footer__content">
-            <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/site-theme/assets/img/icon-email.png" alt="icon" class="section-content-icon section-content-icon--email">
+            <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/amerbio/assets/img/icon-email.png" alt="icon" class="section-content-icon section-content-icon--email">
             <h2 class="site-section__headline">Stay in touch</h2>
 
             <p class="site-copy">

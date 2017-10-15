@@ -198,7 +198,7 @@
 
         <a href="#" class="technology-footer-cta">
           <button type="button" name="button" class="product-email-cta">
-            <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/site-theme/assets/img/icon-email.png" alt="icon" class="section-content-icon section-content-icon--email">
+            <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/amerbio/assets/img/icon-email.png" alt="icon" class="section-content-icon section-content-icon--email">
             <span class="site-copy">info@americanbiooptics.com</span>
           </button>
         </a>
