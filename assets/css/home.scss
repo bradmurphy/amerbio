@@ -58,3 +58,32 @@
   }
 
 }
+
+.home-page {
+  max-width: 1400px;
+  
+  .section-content {
+    box-sizing: border-box;  
+    padding: 0 $site-gutter-val;
+
+    &__cell {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      
+      @media screen and (min-width: $breakpoint_tablet) {
+        flex-direction: row;
+      }
+    }
+
+    &-icon {
+      max-width: 150px;
+      margin: 0 auto;
+      
+      @media screen and (min-width: $breakpoint_tablet) {
+        margin: 0 20px 0 0;
+      }
+    }
+    
+  }
+}

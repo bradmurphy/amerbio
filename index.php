@@ -22,34 +22,28 @@
 
 </section>
 
-<section class="home__ctas">
-
-  <div class="site__wrap site__flex site__row">
-
-    <div class="site__flex site__row home__ctas--container">
-      <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/amerbio/assets/img/icon-clipboard.png" alt="Clinical Data" class="home__ctas--icon">
-      <div class="site__flex site__column">
-        <span>Cancer Prevention</span>
-        <p>
-          Working towards non-invasive testing to identify
-          patients that are high risk for cancer.
-        </p>
-      </div>
+<div class="section-content home-page">
+    <div class="section-content__cell">
+        <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/amerbio/assets/img/icon-clipboard.png" alt="icon" class="section-content-icon section-content-icon--graph">
+        <div class="section-content__copy">
+          <h2 class="site-section__headline">Cancer Prevention</h2>
+          <p class="site-copy">
+              Working towards non-invasive testing to identify
+              patients that are high risk for cancer.
+          </p>
+        </div>
     </div>
 
-    <div class="site__flex site__row home__ctas--container">
-      <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/amerbio/assets/img/icon-heart.png" alt="Cancer Prevention" class="home__ctas--icon">
-      <div class="site__flex site__column">
-        <span>Clinical Data</span>
-        <p>
-          The American BioOptics team has performed both animal and
-          human clinical trials with a primary focus on colon cancer.
-        </p>
-      </div>
+    <div class="section-content__cell">
+        <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/amerbio/assets/img/icon-heart.png" alt="icon" class="section-content-icon section-content-icon--graph">
+        <div class="section-content__copy">
+          <h2 class="site-section__headline">Clinical Data</h2>
+          <p class="site-copy">
+              The American BioOptics team has performed both animal and
+              human clinical trials with a primary focus on colon cancer.
+          </p>
+        </div>
     </div>
-
-  </div>
-
-</section>
+</div>
 
 <?php include 'footer-index.php' ?>

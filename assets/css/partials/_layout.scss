@@ -244,7 +244,7 @@ $site-font-montserrat: 'Montserrat', sans-serif;
   }
 
   &-icon--email {
-    max-width: 40.5px;
+    max-width: 40.5px !important;
   }
 
   &-icon--graph {
@@ -384,7 +384,7 @@ $site-font-montserrat: 'Montserrat', sans-serif;
   .section-content-icon--email {
     margin: 0;
     display: inline-block;
-    max-width: 38.5px;
+    max-width: 38.5px !important;
     
     @media screen and (min-width: 380px) {
       max-width: 40.5px;
