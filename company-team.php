@@ -26,7 +26,7 @@
     <div class="site-section">
         <div class="section-content section-content__team">
             <div class="section-side-bar">
-                <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/site-theme/assets/img/team-vadim.png" alt="icon" class="section-content-icon--team">
+                <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/amerbio/assets/img/team-vadim.png" alt="icon" class="section-content-icon--team">
             </div>
 
             <div class="section-main">
@@ -48,7 +48,7 @@
     <div class="site-section">
         <div class="section-content section-content__team">
             <div class="section-side-bar">
-                <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/site-theme/assets/img/team-andrew.png" alt="icon" class="section-content-icon--team">
+                <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/amerbio/assets/img/team-andrew.png" alt="icon" class="section-content-icon--team">
             </div>
 
             <div class="section-main">
@@ -70,7 +70,7 @@
     <div class="site-section">
         <div class="section-content section-content__team">
             <div class="section-side-bar">
-                <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/site-theme/assets/img/team-michael.png" alt="icon" class="section-content-icon--team">
+                <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/amerbio/assets/img/team-michael.png" alt="icon" class="section-content-icon--team">
             </div>
 
 
@@ -92,7 +92,7 @@
     <div class="site-section">
         <div class="section-content section-content__team">
             <div class="section-side-bar">
-                <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/site-theme/assets/img/team-hemant.png" alt="icon" class="section-content-icon--team">
+                <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/amerbio/assets/img/team-hemant.png" alt="icon" class="section-content-icon--team">
             </div>
 
             <div class="section-main">

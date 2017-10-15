@@ -6,10 +6,10 @@
 
     <footer class="site__flex site__column">
 
-      <div class="site__wrap site__flex site__flex-auto site__row site__flex">
-        <div class="site__flex site__column footer__container--logo">
+      <div class="site__wrap site__flex site__flex-auto site__row site__mobile-column">
+        <div class="site__flex site__column footer__container--logo   desktop-only">
           <a href="./">
-            <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/site-theme/assets/img/logo.png" class="footer__logo" alt="American Bioptics">
+            <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/amerbio/assets/img/logo.png" class="footer__logo" alt="American Bioptics">
           </a>
           <p class="footer__text">
             This technology is under development for the identification
@@ -17,7 +17,7 @@
             distrubution or sale within the United States or internationally.
           </p>
         </div>
-        <div class="site__flex site__column site__flex footer__container">
+        <div class="site__flex site__column site__flex footer__container   desktop-only">
           <span class="footer__text--header">Links</span>
           <a href="./product" class="footer__link">Product</a>
           <a href="./technology" class="footer__link">Technology</a>
@@ -61,5 +61,7 @@
 
   </main>
 
+  <!-- Load Custom JS -->
+  <script src='<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/amerbio/assets/js/custom.min.js'></script>
 </body>
 </html>

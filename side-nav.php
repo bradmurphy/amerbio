@@ -12,6 +12,7 @@
 <link href="../wp-content/themes/amerbio/style.min.css" rel="stylesheet">
 <title>American BioOptics</title>
 <script src="https://use.fontawesome.com/5f66e5340d.js"></script>
+<script src='<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/amerbio/assets/js/vendors/tweenmax.js'></script>
 </head>
 <body>
 

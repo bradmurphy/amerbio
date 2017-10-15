@@ -18,7 +18,7 @@ body, html {
     &--image {
       width: 100%;
       height: 310px;
-      background: url('../site-theme/assets/img/hero.jpg');
+      background: url('../amerbio/assets/img/hero.jpg');
       background-position: 50% 50%;
       background-size: cover;
 
@@ -68,6 +68,14 @@ body, html {
     flex-direction: column;
   }
 
+  &__mobile-column {
+    @media screen and (max-width: $breakpoint_common) {
+      -ms-flex-direction: column;
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+  }
+
   &__row {
     -ms-flex-direction: row;
     -webkit-flex-direction: row;
@@ -80,4 +88,10 @@ body, html {
     flex: 1 1 auto;
   }
 
+}
+
+.desktop-only {
+  @media screen and (max-width: $breakpoint_common) {
+    display: none;
+  }
 }

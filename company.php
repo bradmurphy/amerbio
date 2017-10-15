@@ -18,7 +18,7 @@
     <div class="company__vision">
       <div class="site-section">
         <div class="section-content">
-          <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/site-theme/assets/img/icon-vision.png" alt="icon" class="section-content-icon">
+          <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/amerbio/assets/img/icon-vision.png" alt="icon" class="section-content-icon">
 
           <div class="section-content__cell">
             <h2 class="site-section__headline">Our Vision</h2>

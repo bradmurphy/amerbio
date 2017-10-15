@@ -3,7 +3,7 @@
 <header>
 
   <div class="site__wrap site__flex site__column">
-    <div class="site__flex site__row header__container--contact">
+    <div class="site__flex site__row header__container--contact desktop-only">
       <div class="site__flex site__flex-auto">
         <a href="./company-contact" class="header__text--contact">contact us</a>
       </div>
@@ -27,11 +27,13 @@
         </div>
       </div>
     </div>
+
     <div class="site__flex site__row header__container--nav">
+      <i class="fa fa-bars" id="menu-button" aria-hidden="true"></i>
       <a href="./">
-        <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/site-theme/assets/img/logo.png" class="header__logo" alt="American Bioptics">
+        <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/amerbio/assets/img/logo.png" class="header__logo" alt="American Bioptics">
       </a>
-      <div class="header__container--nav-block">
+      <div class="header__container--nav-block desktop-only">
         <span class="header__text--nav-label">The Product</span>
         <div class="header__container--nav-block--hover">
           <a href="./product" class="header__text--nav-header">The Product</a>
@@ -39,7 +41,7 @@
           <a href="./product-prevent" class="header__text--nav-link">Preventing Cancer</a>
         </div>
       </div>
-      <div class="header__container--nav-block">
+      <div class="header__container--nav-block desktop-only">
         <span class="header__text--nav-label">The Technology</span>
         <div class="header__container--nav-block--hover">
           <a href="./technology" class="header__text--nav-header">The Technology</a>
@@ -47,7 +49,7 @@
           <a href="./technology-papers" class="header__text--nav-link">Tech Papers</a>
         </div>
       </div>
-      <div class="header__container--nav-block">
+      <div class="header__container--nav-block desktop-only">
         <span class="header__text--nav-label">The Company</span>
         <div class="header__container--nav-block--hover">
           <a href="./company" class="header__text--nav-header">The Company</a>
@@ -57,7 +59,7 @@
           <a href="./company-contact" class="header__text--nav-link">Contact Us</a>
         </div>
       </div>
-      <div class="header__container--nav-block">
+      <div class="header__container--nav-block desktop-only">
         <span class="header__text--nav-label">News &amp; Press</span>
         <div class="header__container--nav-block--hover">
           <a href="./news" class="header__text--nav-header">News &amp; Press</a>

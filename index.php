@@ -27,7 +27,7 @@
   <div class="site__wrap site__flex site__row">
 
     <div class="site__flex site__row home__ctas--container">
-      <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/site-theme/assets/img/icon-clipboard.png" alt="Clinical Data" class="home__ctas--icon">
+      <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/amerbio/assets/img/icon-clipboard.png" alt="Clinical Data" class="home__ctas--icon">
       <div class="site__flex site__column">
         <span>Cancer Prevention</span>
         <p>
@@ -38,7 +38,7 @@
     </div>
 
     <div class="site__flex site__row home__ctas--container">
-      <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/site-theme/assets/img/icon-heart.png" alt="Cancer Prevention" class="home__ctas--icon">
+      <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/amerbio/assets/img/icon-heart.png" alt="Cancer Prevention" class="home__ctas--icon">
       <div class="site__flex site__column">
         <span>Clinical Data</span>
         <p>
