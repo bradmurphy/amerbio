@@ -31,11 +31,17 @@ $site-font-montserrat: 'Montserrat', sans-serif;
   font-size: 16px;
   line-height: 24px;
   color: $site-copy-grey;
+  font-weight: 300;
+  margin-bottom: 20px;
+  
+  &:last-of-type {
+    margin-bottom: 0;
+  }
 
   &--lrg {
     font-size: 22px;
     line-height: 30px;
-    font-weight: 300;
+    font-weight: 400;
   }
 
   &--heading {
@@ -44,30 +50,43 @@ $site-font-montserrat: 'Montserrat', sans-serif;
   }
 
   &--link {
+    font-size: 14px;
     font-weight: 400;
     line-height: 48px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     color: $site-blue--dark;
     text-transform: uppercase;
 
     &:after {
       position: relative;
-      top: 3px;
+      top: 2px;
       display: inline-block;
       content: '';
-      width: 20px;
-      height: 20px;
+      width: 16px;
+      height: 16px;
       margin-left: 10px;
       background: url('assets/img/icon-cta-arrow.png')no-repeat center center;
       background-size: contain;
+      
+      @media screen and (min-width: $breakpoint_tablet) {
+        top: 3px;
+        width: 20px;
+        height: 20px;
+      }
+    }
+
+    @media screen and (min-width: $breakpoint_tablet) {
+      font-size: 16px;
+      letter-spacing: 2px;
     }
   }
 
   &--cite {
     font-family: $site-font-montserrat;
-    font-weight: 300i;
+    font-weight: 300;
     font-size: 12px;
     line-height: 22px;
+    font-style: italic;
   }
 }
 
@@ -111,10 +130,15 @@ $site-font-montserrat: 'Montserrat', sans-serif;
 
   &__headline {
     font-family: $site-font-montserrat;
-    font-size: 36px;
-    line-height: 48px;
+    font-size: 28px;
+    line-height: 40px;
     font-weight: 300;
     color: $site-blue;
+    
+    @media screen and (min-width: $breakpoint_tablet) {
+      font-size: 36px;
+      line-height: 48px;
+    }
 
     &--sml {
       font-family: $site-font-montserrat;
@@ -173,11 +197,16 @@ $site-font-montserrat: 'Montserrat', sans-serif;
 
     &--lrg {
       font-family: $site-font-montserrat;
-      font-size: 36px;
-      line-height: 48px;
+      font-size: 28px;
+      line-height: 40px;
       font-weight: 300;
       color: $site-blue;
-      text-align: center
+      text-align: center;
+      
+      @media screen and (min-width: $breakpoint_tablet) {
+        font-size: 36px;
+        line-height: 48px;
+      }
     }
   }
 }
@@ -185,8 +214,7 @@ $site-font-montserrat: 'Montserrat', sans-serif;
 // general section (display: flex; yada yada yada)
 .section-content {
   box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
+  display: block;
   width: 100%;
   max-width: $site-content-max-width;
   margin: $site-gutter-val auto;
@@ -196,6 +224,7 @@ $site-font-montserrat: 'Montserrat', sans-serif;
   }
 
   @media screen and (min-width: $breakpoint_common) {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin: $site-gutter-val--desktop auto;
@@ -205,9 +234,13 @@ $site-font-montserrat: 'Montserrat', sans-serif;
   &-icon {
     display: block;
     width: 100%;
-    max-width: 175px;
+    max-width: 100px;
     margin: 0 auto;
     height: auto;
+    
+    @media screen and (min-width: $breakpoint_tablet) {
+      max-width: 175px;
+    }
   }
 
   &-icon--email {
@@ -251,6 +284,7 @@ $site-font-montserrat: 'Montserrat', sans-serif;
 // flex box sections "cells"
 .section-content__cell,
 .section-content__article {
+  display: block;
   box-sizing: border-box;
   width: 100%;
   flex-basis: 100%;
@@ -316,13 +350,13 @@ $site-font-montserrat: 'Montserrat', sans-serif;
 }
 // site list styles
 .section-content__list {
-  padding-left: $site-gutter-val;
+  padding-left: 20px;
 
   &-item {
     font-size: 14px;
     line-height: 22px;
     list-style-image: url('assets/img/icon-list-item.png');
-    
+    margin-top: 20px;
   }
 
   @media screen and (min-width: $breakpoint_common) {
@@ -339,8 +373,21 @@ $site-font-montserrat: 'Montserrat', sans-serif;
   margin: 20px 0;
   border-radius: 4px;
   
+  .site-copy {
+    font-size: 14px;
+    
+    @media sceen and (min-width: 380px) {
+      font-size: 16px;
+    }
+  }
+  
   .section-content-icon--email {
     margin: 0;
     display: inline-block;
+    max-width: 38.5px;
+    
+    @media screen and (min-width: 380px) {
+      max-width: 40.5px;
+    }
   }
 }

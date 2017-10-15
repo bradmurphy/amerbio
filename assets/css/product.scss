@@ -20,8 +20,10 @@
 
     .site-copy--spc {
       width: 100%;
-      max-width: 450px;
+      max-width: 510px;
       margin: 0 auto;
+      padding: 0 $site-gutter-val;
+      font-weight: 300;
     }
   }
 
@@ -57,8 +59,7 @@
 
     .section-content-icon {
       max-width: 100px;
-      margin: 0 0 $site-gutter-val 0;
-      // padding-right: 20px;
+      margin: 0 auto $site-gutter-val auto;
       
       @media screen and (min-width: $breakpoint_common) {
         margin: 0 10px 0 0;

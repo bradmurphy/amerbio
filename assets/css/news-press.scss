@@ -7,4 +7,10 @@
     text-align: left;
   }
 
+  .site-copy--date {
+    @media screen and (min-width: $breakpoint_common) {
+      line-height: 32px;
+    }
+  }
+
 }

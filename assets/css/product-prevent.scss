@@ -8,8 +8,9 @@
 
   .section-hero__secondary {
     width: 100;
-    max-width: 523px;
+    max-width: 583px;
     margin: 0 auto;
+    padding: 0 $site-gutter-val;
     
     .site-copy--cite {
       margin-top: 30px;

@@ -70,6 +70,8 @@
                 </p>
                 <p class="site-copy">
                     There are a few important things you can do now to reduce the risk of colorectal cancer in the future.
+                </P>
+                <p class="site-copy">
                     The United States Preventive Services Task Force recommends one of the following screening technologies for men and women, aged 50 and older:
                 </p>
                 <ul class="section-content__list">
