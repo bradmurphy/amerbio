@@ -1,42 +1,60 @@
-<?php include 'side-nav.php';?>
+<?php include 'side-nav-index.php';?>
 
 <header>
 
-  <div class="site__wrap site__column">
-    <div class="site__row header__container--contact">
-      <div class="site__flex site__align-left">
-        <a href="#" class="header__text--contact">contact us</a>
+  <div class="site__wrap site__flex site__column">
+    <div class="site__flex site__row header__container--contact">
+      <div class="site__flex site__flex-auto">
+        <a href="./company-contact" class="header__text--contact">contact us</a>
       </div>
-      <div class="site__flex site__align-right">
-        social links
+      <div>
+        <div class="site__flex site__row site__social-container">
+          <div class="site__social-icon">
+            <a href="#" target="_blank">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+          </div>
+          <div class="site__social-icon">
+            <a href="#" target="_blank">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+          </div>
+          <div class="site__social-icon">
+            <a href="#" target="_blank">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="site__row header__container--nav">
-      <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/site-theme/assets/img/logo.png" class="header__logo" alt="American Bioptics">
+    <div class="site__flex site__row header__container--nav">
+      <a href="./">
+        <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/site-theme/assets/img/logo.png" class="header__logo" alt="American Bioptics">
+      </a>
       <div class="header__container--nav-block">
         <span class="header__text--nav-label">The Product</span>
         <div class="header__container--nav-block--hover">
-          <a href="./product.php" class="header__text--nav-header">The Product</a>
-          <a href="./product-data.php" class="header__text--nav-link">Clinical Trial Data</a>
-          <a href="./product-prevent.php" class="header__text--nav-link">Preventing Cancer</a>
+          <a href="./product" class="header__text--nav-header">The Product</a>
+          <a href="./product-data" class="header__text--nav-link">Clinical Trial Data</a>
+          <a href="./product-prevent" class="header__text--nav-link">Preventing Cancer</a>
         </div>
       </div>
       <div class="header__container--nav-block">
         <span class="header__text--nav-label">The Technology</span>
         <div class="header__container--nav-block--hover">
-          <a href="./technology.php" class="header__text--nav-header">The Technology</a>
-          <a href="./technology-details.php" class="header__text--nav-link">Detailed Explanation</a>
-          <a href="./technology-papers.php" class="header__text--nav-link">Tech Papers</a>
+          <a href="./technology" class="header__text--nav-header">The Technology</a>
+          <a href="./technology-details" class="header__text--nav-link">Detailed Explanation</a>
+          <a href="./technology-papers" class="header__text--nav-link">Tech Papers</a>
         </div>
       </div>
       <div class="header__container--nav-block">
         <span class="header__text--nav-label">The Company</span>
         <div class="header__container--nav-block--hover">
-          <a href="./company.php" class="header__text--nav-header">The Company</a>
-          <a href="./company-values.php" class="header__text--nav-link">Our values</a>
-          <a href="./company-team.php" class="header__text--nav-link">Our Team</a>
-          <a href="./company-jobs.php" class="header__text--nav-link">Jobs</a>
-          <a href="./company-contact.php" class="header__text--nav-link">Contact Us</a>
+          <a href="./company" class="header__text--nav-header">The Company</a>
+          <a href="./company-values" class="header__text--nav-link">Our values</a>
+          <a href="./company-team" class="header__text--nav-link">Our Team</a>
+          <a href="./company-jobs" class="header__text--nav-link">Jobs</a>
+          <a href="./company-contact" class="header__text--nav-link">Contact Us</a>
         </div>
       </div>
       <div class="header__container--nav-block">
@@ -52,4 +70,4 @@
 
 </header>
 
-<body <?php body_class(); ?>>
+<body>

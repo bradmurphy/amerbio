@@ -9,7 +9,7 @@
 <meta>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,700" rel="stylesheet">
-<link href="../wp-content/themes/amerbio/style.min.css" rel="stylesheet">
+<link href="./wp-content/themes/amerbio/style.min.css" rel="stylesheet">
 <title>American BioOptics</title>
 <script src="https://use.fontawesome.com/5f66e5340d.js"></script>
 </head>

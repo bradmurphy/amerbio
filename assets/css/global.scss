@@ -25,6 +25,30 @@ body, html {
     }
   }
 
+  &__social-container {
+    width: auto;
+  }
+
+  &__social-icon {
+    background: #cbcbcb;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-left: 15px;
+    text-align: center;
+
+    &--footer {
+      background: #9b9b9b;
+      margin-left: 0;
+      margin-right: 15px;
+    }
+
+    i {
+      color: #fff;
+      font-size: 0.8em;
+    }
+  }
+
   &__wrap {
     width: 100%;
     max-width: 1024px;
@@ -32,26 +56,28 @@ body, html {
     margin: 0 auto;
   }
 
-  &__column {
+  &__flex {
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
+  }
+
+  &__column {
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
     flex-direction: column;
   }
 
   &__row {
-    display: flex;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
     flex-direction: row;
   }
 
-  &__flex {
-    flex: auto;
-  }
-
-  &__align-left {
-    align-items: flex-start;
-  }
-
-  &__align-right {
-    align-items: flex-end;
+  &__flex-auto {
+    -ms-flex: 1 1 auto;
+    -webkit-flex: 1 1 auto;
+    flex: 1 1 auto;
   }
 
 }
