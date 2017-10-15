@@ -21,37 +21,41 @@
   <!-- Side Nav Container -->
   <aside id="side-menu" class="site__side-nav">
     <!-- Side Nav List -->
-    <ul class="side-nav__list">
-      <li class="side-nav__headline">company</li>
-      <li><a href="./index.html" class="side-nav__link">how it works</a></li>
-      <li><a href="./pricing/index.html" class="side-nav__link">pricing</a></li>
-      <li><a href="./success-stories/index.html" class="side-nav__link">success stories</a></li>
-      <li><a href="./about/index.html" class="side-nav__link">about</a></li>
-      <li><a href="./blog/index.html" class="side-nav__link">blog</a></li>
-      <li><a href="./press/index.html" class="side-nav__link">press</a></li>
-    </ul>
-
-    <!-- Side Nav List -->
-    <ul class="side-nav__list">
-      <li class="side-nav__headline">info</li>
-      <li><a href="https://benefix.us/users/sign_in" target="_blank" class="side-nav__link">sign in</a></li>
-      <li><a href="https://benefix.zendesk.com/hc/en-us" target="_blank" class="side-nav__link">help center</a></li>
-      <li><a href="./terms/index.html" class="side-nav__link">terms of use</a></li>
-      <li><a href="./privacy/index.html" class="side-nav__link">privacy</a></li>
-    </ul>
-
-    <!-- Side Nav List -->
-    <ul class="side-nav__list">
-      <li class="side-nav__headline">social media</li>
-      <li class="side-nav__social">
-        <a href="https://www.facebook.com/getbenefix/" class="side-nav__social--link" target="_blank">
-          <img src="./images/social-fb.png" class="side-nav__social--image"alt="Twitter">
-        </a>
-        <a href="https://www.instagram.com/getbenefix/" class="side-nav__social--link" target="_blank">
-          <img src="./images/social-instagram.png" class="side-nav__social--image" alt="Facebook">
-        </a>
-      </li>
-    </ul>
+    <div class="header__container--nav-block">
+      <div class="header__container--nav-block--hover show">
+        <a href="./" class="header__text--nav-header">Home</a>
+      </div>
+    </div>
+    <div class="header__container--nav-block">
+      <div class="header__container--nav-block--hover show">
+        <a href="./product" class="header__text--nav-header">The Product</a>
+        <a href="./product-data" class="header__text--nav-link">Clinical Trial Data</a>
+        <a href="./product-prevent" class="header__text--nav-link">Preventing Cancer</a>
+      </div>
+    </div>
+    <div class="header__container--nav-block">
+      <div class="header__container--nav-block--hover show">
+        <a href="./technology" class="header__text--nav-header">The Technology</a>
+        <a href="./technology-details" class="header__text--nav-link">Detailed Explanation</a>
+        <a href="./technology-papers" class="header__text--nav-link">Tech Papers</a>
+      </div>
+    </div>
+    <div class="header__container--nav-block">
+      <div class="header__container--nav-block--hover show">
+        <a href="./company" class="header__text--nav-header">The Company</a>
+        <a href="./company-values" class="header__text--nav-link">Our values</a>
+        <a href="./company-team" class="header__text--nav-link">Our Team</a>
+        <a href="./company-jobs" class="header__text--nav-link">Jobs</a>
+        <a href="./company-contact" class="header__text--nav-link">Contact Us</a>
+      </div>
+    </div>
+    <div class="header__container--nav-block">
+      <div class="header__container--nav-block--hover show">
+        <a href="./news" class="header__text--nav-header">News &amp; Press</a>
+        <a href="./news-archive" class="header__text--nav-link">News Archive</a>
+        <a href="./news-press" class="header__text--nav-link">Press Release</a>
+      </div>
+    </div>
   </aside>
 
   <!-- Main Site Container -->

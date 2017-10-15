@@ -9,21 +9,21 @@
       </div>
       <div>
         <div class="site__flex site__row site__social-container">
-          <div class="site__social-icon">
-            <a href="#" target="_blank">
+          <a href="#" target="_blank">
+            <div class="site__social-icon">
               <i class="fa fa-facebook" aria-hidden="true"></i>
-            </a>
-          </div>
-          <div class="site__social-icon">
-            <a href="#" target="_blank">
+            </div>
+          </a>
+          <a href="#" target="_blank">
+            <div class="site__social-icon">
               <i class="fa fa-linkedin" aria-hidden="true"></i>
-            </a>
-          </div>
-          <div class="site__social-icon">
-            <a href="#" target="_blank">
+            </div>
+          </a>
+          <a href="#" target="_blank">
+            <div class="site__social-icon">
               <i class="fa fa-twitter" aria-hidden="true"></i>
-            </a>
-          </div>
+            </div>
+          </a>
         </div>
       </div>
     </div>

@@ -12,13 +12,23 @@
   }
 
   &__side-nav {
-    background: #fff;
+    background: #1880c3;
     width: 240px;
     min-width: 240px;
     height: 800px;
-    margin-left: -240px;
-    padding-top: 20px;
+    // margin-left: -240px;
     transition: margin 0.3s ease;
+    z-index: 99999;
+
+    .header__container--nav-block {
+      height: auto;
+      padding-left: 0;
+    }
+
+    .header__container--nav-block--hover {
+      position: static;
+      height: auto;
+    }
   }
 
   &__container {

@@ -8,7 +8,7 @@
 
       <div class="site__wrap site__flex site__flex-auto site__row site__flex">
         <div class="site__flex site__column footer__container--logo">
-          <a href="../">
+          <a href="./">
             <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/site-theme/assets/img/logo.png" class="footer__logo" alt="American Bioptics">
           </a>
           <p class="footer__text">
@@ -19,10 +19,10 @@
         </div>
         <div class="site__flex site__column site__flex footer__container">
           <span class="footer__text--header">Links</span>
-          <a href="../product" class="footer__link">Product</a>
-          <a href="../technology" class="footer__link">Technology</a>
-          <a href="../company" class="footer__link">Company</a>
-          <a href="../press" class="footer__link">News &amp; Press</a>
+          <a href="./product" class="footer__link">Product</a>
+          <a href="./technology" class="footer__link">Technology</a>
+          <a href="./company" class="footer__link">Company</a>
+          <a href="./press" class="footer__link">News &amp; Press</a>
         </div>
         <div class="site__flex site__column site__flex footer__container">
           <span class="footer__text--header">Social</span>

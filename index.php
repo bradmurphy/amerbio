@@ -52,4 +52,4 @@
 
 </section>
 
-<?php include 'footer.php' ?>
+<?php include 'footer-index.php' ?>
