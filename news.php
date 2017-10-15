@@ -61,7 +61,6 @@
                 <p class="site-copy">
                   <?php the_content(); ?>
                 </p>
-                <a href="<?php the_permalink(); ?>" class="site-copy site-copy--link">Read more</a>
             </div>
         </div>
 

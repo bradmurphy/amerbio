@@ -154,3 +154,8 @@ function aa_enqueue_comments_reply() {
         wp_enqueue_script( 'comment-reply' );
     }
 }
+
+function modify_read_more_link() {
+    return '<a class="site-copy site-copy--link" href="' . get_permalink() . '">Read More</a>';
+}
+add_filter( 'the_content_more_link', 'modify_read_more_link' );
