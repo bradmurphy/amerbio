@@ -4,7 +4,7 @@
 
 ?>
 
-<?php include 'header.php';?>
+<?php include 'header-news.php';?>
 
 <section class="news">
 

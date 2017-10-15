@@ -4,7 +4,7 @@
 
 ?>
 
-<?php include 'header.php';?>
+<?php include 'header-product.php';?>
 
 <section class="product-prevent">
 

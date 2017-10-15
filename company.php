@@ -4,7 +4,7 @@
 
 ?>
 
-<?php include 'header.php';?>
+<?php include 'header-company.php';?>
 
 <section class="company">
 
